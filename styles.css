@@ -1,0 +1,218 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*nav*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    /*background-color: rgb(201, 201, 201);*/
+    background-color: silver;
+    text-decoration: none;
+    /* z-index: 10000; */
+}
+.logo{
+    max-height: 8vh;
+    width: 140px;
+    top: 4%;
+    left: 10%;
+}
+.logo img{
+    width: 70%;
+    height: auto;
+}
+a{
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+li{
+    list-style: none;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+/* .nav-links ul li:hover{
+    background-color: #e4b301;
+} */
+/* .fixed{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 20;
+} */
+
+/*background img*/
+#back{
+    /*background: linear-gradient(rgba(0,0,0.5),#009688),url("img/e68b3dc7e1a7deb3b77e48926367073a.jpeg") center;*/
+    /* background: url("img/Screen Shot 2021-12-28 at 4.03.14 PM.png"); */
+    background: url("img/Screen Shot 2022-01-06 at 2.06.55 PM.png");
+    background-size: cover;
+    height: 56vh;
+    /*height: 100vh;*/
+}
+
+/*mission statement*/
+#mission{
+    width: 100%;
+    padding: 70px;
+}
+.statement{
+    text-align: center;
+}
+.statement p{
+    margin: auto;
+    font-size: 40px;
+    /*color: #35a4d9;*/
+    /*color: #80dbf7;*/
+    color: rgba(0, 0, 0, 0.63);
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+.statement h1{
+    font-family: 'Raleway', sans-serif;
+}
+.customstatement{
+    text-align: center;
+}
+.customstatement p{
+    margin: auto;
+    font-size: 40px;
+    /*color: #35a4d9;*/
+    /*color: #80dbf7;*/
+    color: rgba(255, 0, 0);
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+.customstatement h1{
+    font-family: 'Raleway', sans-serif;
+}
+
+/*parameters being tested*/
+#parameters{
+    width: 100%;
+    padding: 70px 0;
+    background-color: #efefef;
+}
+.param-box{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.param{
+    flex-basis: 32%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.param-box p{
+    color: #f8c91c;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    padding: 10px;
+}
+.param-box h3{
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+/*map*/
+#interactive{
+    /*width: 100%;*/
+    /*padding: 70px;*/
+    margin-bottom: 20vh;
+    padding-top: 4vh;
+    /*background-color: #efefef;*/
+}
+.space p{
+    font-size: 40px;
+    /*color: #35a4d9;*/
+    /*color: #80dbf7;*/
+    color: white;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.title p{
+    font-size: 40px;
+    /*color: #35a4d9;*/
+    /*color: #80dbf7;*/
+    /*color: #2d605f;*/
+    /*color: black;*/
+    color: rgba(0, 0, 0, 0.63);
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 auto;
+    width: 50%; */
+}
+
+/* Data Table */
+#data{
+    background-color: #efefef;
+    padding-top: 4vh;
+    /* margin-bottom: 20vh; */
+}
+.tab{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin: 0 auto;
+    margin-top: 5vh;
+    /* margin-bottom: 10vh; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.tab thead tr{
+    background-color: #e4b301;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+.tab th, td{
+    padding: 12px 15px;
+}
+.tab tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+.tab tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+  
+.tab tbody tr:last-of-type {
+    border-bottom: 2px solid #d6a801;
+}
+
+.tab tbody tr.active-row {
+    font-weight: bold;
+    color: #f8c91c;
+}
+.space h1{
+    background-color: #efefef;
+    color: #efefef;
+    min-height: 10vh;
+}
